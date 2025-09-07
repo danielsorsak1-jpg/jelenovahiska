@@ -114,17 +114,21 @@
     </div>
   </section>
 
-  <section id="contact" class="mt-10 bg-white p-6 rounded-lg shadow">
-    <h3 class="text-xl font-semibold">Kontakt & povpraševanje</h3>
-    <p class="text-gray-700 mt-2">Želite rezervirati neposredno ali imate posebno željo za paket? Pošljite sporočilo ali pa rezervirajte preko Airbnb povezave.</p>
-    <form class="mt-4 grid md:grid-cols-2 gap-4" onsubmit="alert('Form demo: prilagodite in povežite s strežnikom ali email storitvijo.'); return false;">
-      <input type="text" placeholder="Vaše ime" class="p-3 border rounded" required />
-      <input type="email" placeholder="Vaš email" class="p-3 border rounded" required />
-      <input type="text" placeholder="Datum prihoda - Datum odhoda" class="p-3 border rounded" required />
-      <textarea placeholder="Sporočilo / Posebne želje" class="p-3 border rounded" required></textarea>
-      <button class="md:col-span-2 bg-green-700 text-white px-4 py-2 rounded">Pošlji povpraševanje</button>
-    </form>
-  </section>
+<form action="sendmail.php" method="POST" style="max-width:400px; margin:auto;">
+  <label for="name">Ime in priimek:</label>
+  <input type="text" id="name" name="name" required style="width:100%; padding:8px; margin:5px 0;">
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required style="width:100%; padding:8px; margin:5px 0;">
+
+  <label for="message">Sporočilo:</label>
+  <textarea id="message" name="message" required style="width:100%; padding:8px; margin:5px 0;"></textarea>
+
+  <button type="submit" style="padding:10px 20px; background:#2d6a4f; color:white; border:none; cursor:pointer;">
+    Pošlji povpraševanje
+  </button>
+</form>
+
 
   <footer class="mt-10 text-center text-sm text-gray-600">
     <p>© Jelenova lesena hiška — Loče pri Slovenskih Konjicah. Rezervacije preko Airbnb: <a href="https://www.airbnb.si/rooms/856384308161954530" target="_blank" class="text-green-700">Povezava do oglasa</a>.</p>
