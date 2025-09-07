@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jelenova lesena hiška — Oddih ob gozdu | Loče, Slovenske Konjice</title>
+  <meta name="description" content="Jelenova lesena hiška: intimna lesena hiška tik ob gozdu. Idealno za romantični vikend, digitalni detox ali družinski oddih. Rezervirajte preko Airbnb." />
+  <meta property="og:title" content="Jelenova lesena hiška — Oddih ob gozdu" />
+  <meta property="og:description" content="Intimna lesena hiška tik ob gozdu v Ločah pri Slovenskih Konjicah. Rezervirajte vikend ali daljše bivanje." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.example/" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x800?text=Jelenova+lesena+hi%C5%A1ka" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* small custom tweaks */
+    .hero-bg { background-image: url('https://via.placeholder.com/1600x900?text=Hi%C5%A1ka+ob+gozdu'); background-size: cover; background-position: center; }
+    .glass { background: rgba(255,255,255,0.85); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="antialiased text-gray-800 bg-gray-50">
+<header class="bg-white shadow">
+  <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+    <div class="flex items-center space-x-3">
+      <div class="w-12 h-12 bg-green-700 text-white rounded-lg flex items-center justify-center font-semibold">JL</div>
+      <div>
+        <h1 class="text-lg font-bold">Jelenova lesena hiška</h1>
+        <p class="text-sm text-gray-600">Loče, Slovenske Konjice — Oddih ob gozdu</p>
+      </div>
+    </div>
+    <nav class="space-x-4 text-sm">
+      <a href="#about" class="hover:underline">O hiški</a>
+      <a href="#packages" class="hover:underline">Paketi</a>
+      <a href="#gallery" class="hover:underline">Galerija</a>
+      <a href="#book" class="bg-green-700 text-white px-3 py-2 rounded shadow-sm">Rezerviraj</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-bg h-96 flex items-end">
+  <div class="max-w-5xl mx-auto w-full p-6">
+    <div class="glass p-6 rounded-lg shadow-lg max-w-2xl">
+      <h2 class="text-2xl font-bold">Jelenova lesena hiška — mir, narava in pristno doživetje</h2>
+      <p class="mt-2 text-gray-700">Umakni se iz mestnega vrveža in preživite nepozaben vikend ali več dni v leseni hiški tik ob gozdu. Idealno za pare, mala družinska druženja ali solo pobeg v naravo.</p>
+      <div class="mt-4">
+        <a id="book" href="https://www.airbnb.si/rooms/856384308161954530" target="_blank" class="inline-block bg-green-700 text-white px-4 py-2 rounded mr-2">Rezerviraj na Airbnb</a>
+        <a href="#contact" class="inline-block border border-green-700 text-green-700 px-4 py-2 rounded">Pošlji povpraševanje</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="max-w-5xl mx-auto p-6">
+  <section id="about" class="grid md:grid-cols-3 gap-6 items-start">
+    <div class="md:col-span-2">
+      <h3 class="text-xl font-semibold">Zakaj izbrati Jelenovo hiško?</h3>
+      <ul class="mt-3 space-y-2 text-gray-700">
+        <li>🌲 <strong>Neposredna bližina gozda</strong> — zbudite se s ptičjim petjem in jutranjim mirom.</li>
+        <li>🏡 <strong>Pristen leseni ambient</strong> — topel, domač občutek in udobje.</li>
+        <li>🔥 <strong>Idealen za daljše bivanje</strong> — paketi in popusti za 3+ noči.</li>
+        <li>🐾 <strong>Jelenja pen / atrakcija</strong> — majhen stik z naravo, ki gostom ostane v spominu.</li>
+      </ul>
+
+      <h4 class="mt-6 font-semibold">Kaj je vključeno</h4>
+      <p class="text-gray-700 mt-2">Posteljnina, osnoven kuhinjski pribor, topla voda, les za kurjenje (po dogovoru). Za daljše bivanje priporočamo paket dobrodošlice z lokalnimi izdelki.</p>
+
+      <h4 class="mt-6 font-semibold">Priporočeni izleti</h4>
+      <ol class="list-decimal pl-5 mt-2 text-gray-700">
+        <li>Pohod po okoliških gozdnih poteh (označeno v zemljevidu, ki ga prejmete ob prihodu).</li>
+        <li>Dnevi v termalnih kopališčih v regiji (30–60 min vožnje).</li>
+        <li>Ogledi lokalnih vinogradov in kmetij.</li>
+      </ol>
+    </div>
+
+    <aside class="bg-white p-4 rounded-lg shadow">
+      <h5 class="font-semibold">Hitri podatki</h5>
+      <ul class="text-gray-700 mt-2">
+        <li><strong>Kapaciteta:</strong> 2 osebi (možnost otroškega ležišča)</li>
+        <li><strong>Najem:</strong> minimalno 2 noči (priporočamo 3+ noči)</li>
+        <li><strong>Wi‑Fi:</strong> po dogovoru (digital‑detox možnost)</li>
+        <li><strong>Prijava:</strong> samoprijava / ključ v škatlici</li>
+      </ul>
+      <a href="https://www.airbnb.si/rooms/856384308161954530" target="_blank" class="mt-4 inline-block bg-green-700 text-white px-4 py-2 rounded">Rezerviraj zdaj</a>
+    </aside>
+  </section>
+
+  <section id="packages" class="mt-10">
+    <h3 class="text-xl font-semibold">Paketi in popusti</h3>
+    <div class="mt-4 grid md:grid-cols-3 gap-4">
+      <div class="p-4 bg-white rounded-lg shadow">
+        <h4 class="font-semibold">Romantični vikend</h4>
+        <p class="text-gray-700 mt-2">2 noči, steklenica lokalnega vina, sveče in zajtrk v košarici.</p>
+      </div>
+      <div class="p-4 bg-white rounded-lg shadow">
+        <h4 class="font-semibold">Naravni vikend</h4>
+        <p class="text-gray-700 mt-2">3 noči, zemljevid pohodov, košarica lokalnih izdelkov, 10 % popusta.</p>
+      </div>
+      <div class="p-4 bg-white rounded-lg shadow">
+        <h4 class="font-semibold">Teden oddiha</h4>
+        <p class="text-gray-700 mt-2">5+ noči — prilagojen paket dobrodošlice in 15 % popusta.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="mt-10">
+    <h3 class="text-xl font-semibold">Galerija</h3>
+    <p class="text-sm text-gray-600 mt-2">(Zamenjajte spodnje placeholder slike z lastnimi fotografijami hiške.)</p>
+    <div class="mt-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <img src="https://via.placeholder.com/800x600?text=Zunanjost+hi%C5%A1ke" alt="zunanjost" class="rounded shadow" />
+      <img src="https://via.placeholder.com/800x600?text=Notranjost" alt="notranjost" class="rounded shadow" />
+      <img src="https://via.placeholder.com/800x600?text=Jelen+pen" alt="jelen" class="rounded shadow" />
+      <img src="https://via.placeholder.com/800x600?text=Terasa+z+razgledom" alt="terasa" class="rounded shadow" />
+      <img src="https://via.placeholder.com/800x600?text=Kamin+in+ambient" alt="kamin" class="rounded shadow" />
+      <img src="https://via.placeholder.com/800x600?text=Pot+v+gozd" alt="pot" class="rounded shadow" />
+    </div>
+  </section>
+
+  <section id="contact" class="mt-10 bg-white p-6 rounded-lg shadow">
+    <h3 class="text-xl font-semibold">Kontakt & povpraševanje</h3>
+    <p class="text-gray-700 mt-2">Želite rezervirati neposredno ali imate posebno željo za paket? Pošljite sporočilo ali pa rezervirajte preko Airbnb povezave.</p>
+    <form class="mt-4 grid md:grid-cols-2 gap-4" onsubmit="alert('Form demo: prilagodite in povežite s strežnikom ali email storitvijo.'); return false;">
+      <input type="text" placeholder="Vaše ime" class="p-3 border rounded" required />
+      <input type="email" placeholder="Vaš email" class="p-3 border rounded" required />
+      <input type="text" placeholder="Datum prihoda - Datum odhoda" class="p-3 border rounded" required />
+      <textarea placeholder="Sporočilo / Posebne želje" class="p-3 border rounded" required></textarea>
+      <button class="md:col-span-2 bg-green-700 text-white px-4 py-2 rounded">Pošlji povpraševanje</button>
+    </form>
+  </section>
+
+  <footer class="mt-10 text-center text-sm text-gray-600">
+    <p>© Jelenova lesena hiška — Loče pri Slovenskih Konjicah. Rezervacije preko Airbnb: <a href="https://www.airbnb.si/rooms/856384308161954530" target="_blank" class="text-green-700">Povezava do oglasa</a>.</p>
+  </footer>
+</main>
+
+</body>
+</html>
